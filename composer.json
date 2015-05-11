@@ -1,0 +1,21 @@
+{
+    "name": "orcsis/yii2-angularui",
+    "description": "Implement AngularUI for Grids and Forms CRUD",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," angularJS"," angularUI"," Angular"," UI"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Oliver Carreño",
+            "email": "orcoliver@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "orcoliver\\angularui\\": ""
+        }
+    }
+}
