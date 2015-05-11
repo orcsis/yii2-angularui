@@ -1,6 +1,6 @@
 <?php
 
-namespace orcoliver\angularui;
+namespace orcsis\angularui;
 
 /**
  * This is just an example.
