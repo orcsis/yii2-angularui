@@ -6,7 +6,7 @@
  * @version 1.0.0
  */
 
-namespace orcsis\angularui\bootstrap;
+namespace orcsis\angularui;
 
 use Yii;
 
@@ -16,27 +16,26 @@ use Yii;
  * @author Oliver Carreño <orcoliver@gmail.com>
  * @since 1.0
  */
-class BootstrapAsset extends \yii\web\AssetBundle
+class AngularAsset extends \yii\web\AssetBundle
 {
 
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@bower/angular-bootstrap';
+    public $sourcePath = '@bower/angular';
 
     /**
      * @inheritdoc
      */
     public $js = [
-        (YII_DEBUG ? 'ui-bootstrap-tpls.js' : 'ui-bootstrap-tpls.min.js'),
+        (YII_DEBUG ? 'angular.js' : 'angular.min.js'),
     ];
 
     /**
      * @inheritdoc
      */
-    public $depends = [
+    /*public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
-        'orcsis\angularui\AngularAsset',
-    ];
+    ];*/
 }
