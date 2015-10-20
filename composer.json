@@ -14,7 +14,8 @@
         "yiisoft/yii2": "*",
         "yiisoft/yii2-bootstrap": "*",
         "bower-asset/angular": "1.4.7@stable",
-        "bower-asset/angular-bootstrap": "0.14.2@stable"
+        "bower-asset/angular-bootstrap": "0.14.2@stable",
+        "bower-asset/angular-ui-grid": "3.0.7@stable"
     },
     "autoload": {
         "psr-4": {

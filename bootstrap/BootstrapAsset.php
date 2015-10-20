@@ -35,7 +35,6 @@ class BootstrapAsset extends \yii\web\AssetBundle
      * @inheritdoc
      */
     public $depends = [
-        'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
         'orcsis\angularui\AngularAsset',
     ];

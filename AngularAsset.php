@@ -34,8 +34,7 @@ class AngularAsset extends \yii\web\AssetBundle
     /**
      * @inheritdoc
      */
-    /*public $depends = [
+    public $depends = [
         'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
-    ];*/
+    ];
 }
